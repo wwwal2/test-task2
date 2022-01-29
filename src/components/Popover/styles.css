@@ -1,0 +1,33 @@
+.popover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.popover-content {
+    cursor: pointer;
+}
+
+.message {
+    position: absolute;
+    padding: 10px;
+    visibility: hidden;
+    width: 90vw;
+    left: 5%;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(134, 120, 120);
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hide-btn {
+    cursor: pointer;
+    margin-top: 10px;
+}
